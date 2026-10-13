@@ -17,3 +17,40 @@ h1 {
 p {
   font-size: 18px;
 }
+
+#shape{
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #f4c542;
+}
+
+.square{
+  background-color: #5b8def;
+}
+
+.triangle {
+  width: 0 !important;
+  height: 0 !important;
+  border-left: 75px solid transparent;
+  border-bottom: 150px solid #f28c38;
+  background-color: transparent !important;
+}
+
+button{
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
